@@ -1,0 +1,22 @@
+/* colors */
+:root {
+    --white : white;
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+
+@media (max-width: 576px) { 
+    #faq {
+        display: flex;
+        flex-flow: column-reverse nowrap;
+    }
+    #album {
+        display: flex;
+        flex-flow: column-reverse nowrap;
+        }
+    #toast {
+        width: 90%;
+    }
+} 
